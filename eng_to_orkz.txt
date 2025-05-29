@@ -136,6 +136,10 @@
 "wrench","spanna"
 "speed","da red ones go fasta!" 
 "one","un"
+"nothing","nuffin"
+"peace/diplomacy","wot is 'em fancy wordz?"
+"lol","hehe/ha!"
+"lmao/rofl","GAH 'AH 'AH!/haha, dem da funny wordz!"
 
 
 
@@ -380,24 +384,21 @@
 "why","wot fer"
 "how","ow"
 "when","wen"
-"nothing","nuffin"
-"peace/diplomacy","wot is 'em fancy wordz?"
-
 
 
 # Suffix Rules < ~suf "[in]","[out]",[percent chance] >
-~suf "ing","in'",100
-~suf "s","z",50
-~suf "s","ses",50
-~suf "er","a",100
-~suf "ers","az",100
-~suf "nd","n'",100
-~suf "re","ar",100
-~suf "","z",20
+~suf "ing","in'","100"
+~suf "s","z","50"
+~suf "s","ses","50"
+~suf "er","a","100"
+~suf "ers","az","100"
+~suf "nd","n'","100"
+~suf "re","ar","100"
+~suf "","z","5"
 
 # Prefix Rules < ~pre "[in]","[out]",[percent chance] >
-~pre "h","'",75
-~pre "th","d",50
-~pre "th","f",50
-~pre "e","'i",25
-~pre "ex","'",100
+~pre "h","'","75"
+~pre "th","d","50"
+~pre "th","f","50"
+~pre "e","'i","25"
+~pre "ex","'","100"

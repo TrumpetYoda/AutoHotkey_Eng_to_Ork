@@ -24,7 +24,7 @@ for line in StrSplit(fileText, "`n", "`r")
 	if (SubStr(line, 1, StrLen(suffixString)) == suffixString)
 	{
 		; parts[1] == input, parts[2] == output, parts[3] == percent chance
-		parts := StrSplit(LTrim(line, suffixString), ",")
+		parts := StrSplit(LTrim(line, suffixString), "`",`"")
 		parts[1] := Trim(parts[1], " `t`r`n`"")
 		parts[2] := Trim(parts[2], " `t`r`n`"")
 		parts[3] := Trim(parts[3], " `t`r`n`"")
@@ -38,7 +38,7 @@ for line in StrSplit(fileText, "`n", "`r")
 	if (SubStr(line, 1, StrLen(prefixString)) == prefixString)
 	{
 		; parts[1] == input, parts[2] == output, parts[3] == percent chance
-		parts := StrSplit(LTrim(line, prefixString), ",")
+		parts := StrSplit(LTrim(line, prefixString), "`",`"")
 		parts[1] := Trim(parts[1], " `t`r`n`"")
 		parts[2] := Trim(parts[2], " `t`r`n`"")
 		parts[3] := Trim(parts[3], " `t`r`n`"")
@@ -49,7 +49,7 @@ for line in StrSplit(fileText, "`n", "`r")
 	}
 
 	; one-to-one translation case
-	parts := StrSplit(line, ",")
+	parts := StrSplit(line, "`",`"")
 	if (parts.Length == 2)
 	{
 		leftSide := Trim(parts[1], " `t`r`n`"")
