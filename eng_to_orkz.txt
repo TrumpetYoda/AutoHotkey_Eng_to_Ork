@@ -87,7 +87,6 @@
 "all","allz/da lot"
 "none","nuffin/notta"
 "thing","fing"
-"things","fings/stuffz"
 "man","bloke/git/humie"
 "woman","git/humie/panzee"
 "boy","yoof/kiddo"
@@ -111,8 +110,8 @@
 "of","ov"
 "that","'dat"
 "human","humie"
-"humans","humies"
 "laugh","larf"
+
 
 
 # Suffix Rules < ~suf "[in]","[out]",[percent chance] >

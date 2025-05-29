@@ -1,5 +1,9 @@
+#standalone exe folder used for zip
+/standalone_exe
+
 # Ignore compiled scripts
 *.exe
+!*setup.exe
 *.ahk.bak
 *.ahk~*
 
