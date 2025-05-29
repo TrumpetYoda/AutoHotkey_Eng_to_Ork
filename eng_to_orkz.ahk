@@ -60,7 +60,24 @@ for line in StrSplit(fileText, "`n", "`r")
 
 		for (key in keys)
 		{
-			translationMap[key] := values
+			newValues := values
+			; handle duplicate keys
+			if (translationMap.Has(key))
+			{
+				;MsgBox "duplicate key caught"
+				for (v in translationMap[key])
+				{
+					; handle duplicate values
+					for (nV in newValues)
+					{
+						if (nV != v)
+							newValues.Push(v)
+						;else
+							;MsgBox "duplicate value caught"
+					}
+				}
+			}
+			translationMap[key] := newValues
 		}
 	}
 }

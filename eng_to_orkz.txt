@@ -368,8 +368,6 @@
 "why","wot fer"
 "how","ow"
 "when","wen"
-"where","wherez"
-"who","which git"
 
 
 # Suffix Rules < ~suf "[in]","[out]",[percent chance] >
