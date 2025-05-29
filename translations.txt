@@ -1,0 +1,6 @@
+hello=gurtza
+world=wurldo
+test=tezto
+how=hau
+are=ar
+you=yuu
