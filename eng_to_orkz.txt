@@ -16,7 +16,7 @@
 "be","be/iz"
 "has","gots"
 "hard","'ard"
-"other","uvver"
+"other","uvva"
 "have","'ave"
 "do","du"
 "does","duz"
@@ -107,14 +107,22 @@
 "use","uze/wiv"
 "break","krack/bash/krump!"
 "fix","mend/slap it togevva"
-"to","ta"
+"to","ta / ter"
 "of","ov"
 "that","'dat"
+"human","humie"
+"humans","humies"
+"laugh","larf"
 
 
 # Suffix Rules < ~suf "[in]","[out]",[percent chance] >
-~suf "ing","in'",90
-~suf "s","z",100
+~suf "ing","in'",100
+~suf "s","z",60
+~suf "er","a",100
+~suf "nd","n'",100
 
 # Prefix Rules < ~pre "[in]","[out]",[percent chance] >
-~pre "h","'",75
+~pre "h","'",60
+~pre "th","d",45
+~pre "th","f",45
+~pre "e","'i",25

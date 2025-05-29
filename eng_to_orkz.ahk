@@ -92,9 +92,15 @@ handleSpace(*)
     global currentWord, translationMap
 
 	; handle output word
+	cLen := StrLen(currentWord)
 	newWord := currentWord
+	currentWordOneLess := SubStr(currentWord, 1, cLen-1)
+	lastCharCurrentWord := SubStr(currentWord, cLen, cLen)
+
 	if (translationMap.Has(currentWord))
 		newWord := translationMap[currentWord][Random(1, translationMap[currentWord].Length)]
+	else if (lastCharCurrentWord == "s" && translationMap.Has(currentWordOneLess))
+		newWord := translationMap[currentWordOneLess][Random(1, translationMap[currentWordOneLess].Length)] lastCharCurrentWord
 	else
 	{
 		for (key in suffixDefaultMap)
