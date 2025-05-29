@@ -1,9 +1,9 @@
-# One-to-one official translations
+# One-to-one slang translations of Orky
 
 "hello","'ullo!"
-"hi/hey","oi!"
+"hi/hey","oi"
 "goodbye","bugger off!/zog off!"
-"yes","yeah/uh-huh"
+"yeah","uh-huh"
 "no","nah/naw/nope"
 "please","wot du ya mean please?"
 "thanks","ta git/cheers ya git"
@@ -17,6 +17,7 @@
 "has","gots"
 "hard","'ard"
 "other","uvva"
+"another","anuvva"
 "have","'ave"
 "do","du"
 "does","duz"
@@ -30,12 +31,12 @@
 "and","an'/'n"
 "or","or/o'/meebee"
 "but","buh/'cept"
-"because","cuz/wot fer"
+"because","cuz"
 "if","if/wen"
 "i","i/i'se"
 "ha/hah","hur"
 "teeth","teef"
-"weapon/gun","dakka"
+"weapon/gun/shooter","dakka"
 "armor/armour","mega-armour"
 "this","'dis"
 "you","youz/ya"
@@ -47,13 +48,16 @@
 "he","him/'e"
 "she","her/'er"
 "they","dey/dem"
-"we","we/us"
+"we","we/us lot"
+"were/we're","weez"
 "my","me/me own"
 "your","yerz/yer"
 "their","deir/demz"
 "who","which git"
 "what","wot"
 "here","'ere"
+"there","der"
+"enough","ennuff"
 "where","wherez/wher"
 "when","wen"
 "why","wot fer"
@@ -62,7 +66,6 @@
 "just","jus'"
 "friend","lad"
 "manager","boss"
-"get","git"
 "crush","krush"
 "will","gonna/wiv be"
 "would","wudda/wud be"
@@ -92,11 +95,11 @@
 "propper","proppa"
 "much","muckz/lotz"
 "many","lotsa/tonz"
-"some","summ/fewz"
+"some","sum/a fewz"
 "all","allz/da lot"
 "none","nuffin/notta"
 "thing","fing"
-"man","bloke/git/humie"
+"man/person","bloke/git/humie"
 "woman","git/humie/panzee"
 "boy","yoof/kiddo"
 "girl","yoofette/l'il panzee"
@@ -118,19 +121,28 @@
 "to","ta/ter"
 "of","ov"
 "that","'dat"
-"human","humie"
+"human","humie/'umie"
 "laugh","larf"
 "ah","wa"
-"ahh/ahhh/aah/aaah/aaa","WAAAGH"
+"war/invasion/attack/battle","WAAAGH!"
 "spin","spynz"
-"people","peoplez"
+"people","peoplez/humies"
+"president/general/leader","warboss/warlord"
+"sharp","stabby"
+"piece","bit"
+"god/gods","Gork ‘n Mork"
+"small","goblin-sized"
+"machine","mekboy"
+"wrench","spanna"
+"speed","da red ones go fasta!" 
+"one","un"
 
 
 
 
 # GPT generated translations
 
-"friend","mucka/matey"
+"friend","mucka/matey/mate"
 "enemy","sneaky git/grotznik"
 "battle","bash-up/scrap"
 "fight","smash/bash 'eadz"
@@ -142,7 +154,7 @@
 "safe","no boomz 'ere"
 "food","grub/chow/gobstuff"
 "drink","swill/grog"
-"beer","brew/fizzy squig juice"
+"beer","brew/fizzy squig juice/squig brew"
 "water","wet stuff"
 "meat","meatz/slabz"
 "bone","bonz"
@@ -368,16 +380,23 @@
 "why","wot fer"
 "how","ow"
 "when","wen"
+"nothing","nuffin"
+"peace/diplomacy","wot is 'em fancy wordz?"
+
 
 
 # Suffix Rules < ~suf "[in]","[out]",[percent chance] >
 ~suf "ing","in'",100
-~suf "s","z",60
+~suf "s","z",50
+~suf "s","ses",50
 ~suf "er","a",100
+~suf "ers","az",100
 ~suf "nd","n'",100
+~suf "re","ar",100
 
 # Prefix Rules < ~pre "[in]","[out]",[percent chance] >
-~pre "h","'",60
-~pre "th","d",70
-~pre "th","f",70
+~pre "h","'",75
+~pre "th","d",50
+~pre "th","f",50
 ~pre "e","'i",25
+~pre "ex","'",100
