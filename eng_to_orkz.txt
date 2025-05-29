@@ -106,12 +106,13 @@
 "use","uze/wiv"
 "break","krack/bash/krump!"
 "fix","mend/slap it togevva"
-"to","ta / ter"
+"to","ta/ter"
 "of","ov"
 "that","'dat"
 "human","humie"
 "laugh","larf"
-
+"ah","wa"
+"ahh/ahhh/aah/aaah/aaa","WAAAGH"
 
 
 # Suffix Rules < ~suf "[in]","[out]",[percent chance] >
